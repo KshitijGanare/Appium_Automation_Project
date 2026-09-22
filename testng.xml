@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Appium Test Suite">
+    <test name="Appium Tests">
+        <classes>
+            <class name="tests.Tests"/>
+            <class name="tests.Test_AppLifecycle"/>
+            <class name="tests.AccessibilityPageTests.AccessibilityPage_Test"/>
+            <class name="tests.AppPageTests.AppPageTest"/>
+        </classes>
+    </test>
+</suite>

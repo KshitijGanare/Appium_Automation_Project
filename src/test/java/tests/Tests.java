@@ -16,7 +16,7 @@ public class Tests extends BaseTest {
 
     @BeforeMethod
     public void initializePages() {
-        pageObject = new PageObjectManager(driver);     // BaseTest -> Tests -> PageObjectManager
+        pageObject = new PageObjectManager(driver);
     }
 
     @Test

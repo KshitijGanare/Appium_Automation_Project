@@ -7,7 +7,6 @@ import pages.App.App_Page;
 import pages.Home_Page;
 
 public class PageObjectManager {
-        // BaseTest (inherit)-> Test (inside Constructor initialize PageObjectManger, passed driver in constructor) -> All Classes
 
         private AndroidDriver driver;
 
